@@ -66,7 +66,7 @@
     const emailLogin = $('#emailLogin').val();
     if (!passwordLogin || !emailLogin) {
       $('.regMessage').html('Kindly fill in all fields');
-      return;
+      return; 
     }
     //Check if the user is in the database
     $.ajax({
