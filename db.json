@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "fullname": "Daro Gadibia",
+      "username": "daro ",
+      "email": "darogadibia@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "fullname": "Daro Gadibi",
+      "username": "dd",
+      "email": "sqhoopmeme@gmail.com",
+      "password": "23456",
+      "id": 2
+    }
+  ],
+  "food": [],
+  "orders": [],
+  "admin": []
+}
