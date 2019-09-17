@@ -1,31 +1,27 @@
 $(document).ready(function() {
  
     //Registration Function
-    $('.orderSubmitBtn').click(function(event) {
+    $('.adminSubmitBtn').click(function(event) {
       event.preventDefault();
-      const fullname = $('#fullname').val();
-      const foodorder = $('#foodorder').val();
-      const phonenumber = $('#phonenumber').val();
-      const location = $('#location').val();
+      const adminID = $('#adminID').val();
+      const password = $('#password').val();
       //Check if user input is empty
-      if (!fullname || !foodorder || !phonenumber|| !location) {
-        $('.ordermessage').html('Kindly fill in all fields');
+      if (!adminID || !password ) {
+        $('.adminmessage').html('Kindly fill in all fields');
         return;
       }
       $.ajax({
         method: 'POST',
-        url: 'http://localhost:3000/orders',
+        url: 'http://localhost:3000/admin',
         data: {
-          fullname,
-          foodorder,
-          phonenumber,
-          location,
+          adminID,
+          password,
         },
         beforeSend: function() {
-          $('.ordermessage').html('Loading....');
+          $('.adminmessage').html('Loading....');
         },
         success: function() {
-          $('.ordermessage').html('Food order Sent');
+          $('.adminmessage').html('Admin added');
         },
       });
     });
