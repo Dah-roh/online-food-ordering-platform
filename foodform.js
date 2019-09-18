@@ -6,7 +6,6 @@ $(document).ready(function() {
       const foodname = $('#foodname').val();
       const prices = $('#prices').val();
       const imgurl = $('#imgurl').val();
-      const email = $('#email').val();
       //Check if user input is empty
       if (!foodname || !prices || !imgurl) {
         $('.foodmessage').html('Kindly fill in all fields');

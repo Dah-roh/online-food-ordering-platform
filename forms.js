@@ -98,13 +98,6 @@
     localStorage.clear();
     $('.checkLogin').html('Kindly login');
     window.location.assign('signup.html');
-    $.ajax({
-      method: 'GET',
-      url: 'http://localhost:3000/users?id=1',
-      success:function(response){
-        console.log(response);
-        $('img').attr('src')=response[0].image
-      },
-       });
+
   });
 });

@@ -12,24 +12,38 @@ $(document).ready(function(){
 
             
 $('#image').html(image);})
-   let searchUrls = new URLSearchParams(window.location.search);
+        })
+
+})
+        let searchUrls = new URLSearchParams(window.location.search);
 let idn=searchUrls.get('id');
 console.log(idn)
 $('.updateSubmitBtn').click(function(event) {
+    event.preventDefault();
 const foodname = $('#food').val();
 const prices = $('#prices').val();
 $.ajax({
     method:"PATCH",
-    url:`http://localhost:3000/food/id/'2'`,
+    url:`http://localhost:3000/food/2`,
     data:{
-        price: prices,
-        foodname: foodname},
-        success: function() {
-            $('.success').html('Successfull');
+        foodname: foodname,
+        prices: prices
+        
+    },
+
+})
+})
+$('.deleteBtn').click(function(event) {
+    event.preventDefault();
+const foodname = $('#food').val();
+const prices = $('#prices').val();
+$.ajax({
+    method:"DELETE",
+    url:`http://localhost:3000/food/2`,
+    data:{
+        foodname: foodname,
+        prices: prices
+        
     },
 })
 })
-})
-
-})
-     
