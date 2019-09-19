@@ -12,40 +12,29 @@
 <body>
   <nav class="homeNav">
     <ul>
-      <a class="link" href="index.html"><li>Home</li></a>
-      <a class="link" href="about.html"><li>About</li></a>
-      <a class="link" href="contact.html"><li>Contact</li></a>
-      <a class="link" href="foods.html"><li>Foods</li></a> 
-       <a class="link" href="orders.html"><li>Make order</li></a>
-      <li class="link" class="registerBtn">Register</li>
-      <li class="link" class="loginBtn">Login</li>
-      <li class="link" class="logoutBtn">Log out</li>
+        <a class="link" href="foodupload.html"><li>Add to Food catalog</li></a>
+        <a class="link" href="foodlist.html"><li>View Food Catalog</li></a>
+        <a class="link" href="orderlist.html"><li>View Orders</li></a>
     </ul>
   </nav>
   <main class="main-content">
       <main class="main-content"><div class="container">
-        <div class="top-left box red div">
-        <p><span> Pas-Trees...<i>FOODS</i></span></p></div>
-
-         <img src="chocolate cake.jpg" width="100%">
-   </div>
-    <img src="/Pastrees.png" alt="">
+        
+    <br><br><br><h1>Food List</h1><br><br><br>
+    <form class="update">
+        <p class="updateMessage"></p>
+        <input type="text" name="food" id="food" placeholder="Food Name" />
+        <input type="text" name="prices" id="prices" placeholder="Prices" />
+        <br>
+        <button class="updateSubmitBtn">Update</button>  <button class="deleteBtn">DELETE</button>
+        
+    </form>
+  
     <div id="image">
     </div>
-    <div class="success">
-    </div>
-    <div id="details">
-    </div>
-    <form class="ge"> 
-    </form>
+  
   </main>
-  <form class="update">
-    <p class="updateMessage"></p>
-    <input type="text" name="food" id="food" placeholder="Food Name" />
-    <input type="text" name="prices" id="prices" placeholder="Prices" />
-    <button class="updateSubmitBtn">Update</button>
-    <button class="deleteBtn">DELETE</button>
-</form>
+
   <footer>Copyright &copy; PasTrees</footer>
   <script src="./jquery.js"></script>
   <script src="./foodlist.js"></script>
