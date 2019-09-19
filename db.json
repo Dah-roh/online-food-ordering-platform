@@ -15,7 +15,99 @@
       "id": 2
     }
   ],
-  "food": [],
-  "orders": [],
-  "admin": []
+  "food": [
+    {
+      "foodname": "sweet carrot cake",
+      "prices": "N5000",
+      "imgurl": "carrot-cake.jpg",
+      "id": 1
+    },
+    {
+      "foodname": "chocolate cake ",
+      "prices": "N4000",
+      "imgurl": "chocolate cake.jpg",
+      "id": 2
+    },
+    {
+      "foodname": "fruit cake",
+      "prices": "N5500",
+      "imgurl": "fruit cake.jpg",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "fullname": "kingley oyaya",
+      "foodorder": "chocolate cake ",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 9
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 10
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 11
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 12
+    },
+    {
+      "fullname": "kingley oyaya",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 13
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 14
+    },
+    {
+      "fullname": "kingley oyaya",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 15
+    }
+  ],
+  "admin": [
+    {
+      "adminID": "owner",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "adminID": "the owner",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "adminID": "the owner",
+      "password": "123456",
+      "id": 3
+    }
+  ]
 }

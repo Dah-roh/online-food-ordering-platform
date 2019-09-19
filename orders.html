@@ -9,17 +9,20 @@
   </head>
   <body>
     <nav class="homeNav">
-        <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="about.html"><li>About</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-                <a href="cakes.html"><li>Cakes</li></a>
-                <a href="breads.html"><li>breads</li></a>
-                <a href=".html"><li class="registerBtn">Register</li></a>
-            
-        </ul>
+      <ul>
+        <a class="link" href="index.html"><li>Home</li></a>
+        <a class="link" href="about.html"><li>About</li></a>
+        <a class="link" href="contact.html"><li>Contact</li></a>
+        <a class="link" href="foods.html"><li>Foods</li></a> 
+         <a class="link" href="orders.html"><li>Make order</li></a>
+        <li class="link" class="registerBtn">Register</li>
+        <li class="link" class="loginBtn">Login</li>
+        <li class="link" class="logoutBtn">Log out</li>
+      </ul>
     </nav>
     <main class="main-content">
+      <br><br>
+        <h1>Order</h1>
         <img src="" class="img" attr=''></img>
         <p class="ordermessage"></p>
       <form class="orders">
@@ -34,7 +37,7 @@
           type="text"
           name="foodorder"
           id="foodorder"
-          placeholder="Food Order"
+          placeholder="Food Name"
         />
         
         <input type="text"
@@ -46,12 +49,28 @@
          name="location" 
          id="location" 
          placeholder="Location" />
+
+         <input type="text"
+         name="quantity" 
+         id="quantity" 
+         placeholder="quantity" />
         
         <button class="orderSubmitBtn">Order</button>
+        <p class="view1"></p>
+        <p class="view2"></p>
+        <p class="view5"></p>
+        <p class="view3"></p>
+        <p class="view4"></p>
+        <p class="view5"></p>
+        <br>
+        <br>
+       
       </form>
+     
       </main>
     <footer>Copyright &copy; PasTrees</footer>
     <script src="./jquery.js"></script>
     <script src="./order.js"></script>
+      <script src="./checkLogin.js"></script>
   </body>
 </html>
