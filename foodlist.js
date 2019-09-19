@@ -9,7 +9,7 @@ $(document).ready(function(){
 
             image+="<br>"+"<br>"+"<center>"+"<br>"+'<img src="/'+value.imgurl+'" width="40%"/>'+"<H1>"+value.foodname+"</H1>"+"<br>"
             +'<a href="'+'foodlist.html?id='+value.id+'"><li>Get ID</li></a>'
-        btn+="<details open>"+'<summary id="btn">'
+        btn+="<details close>"+'<summary id="btn">'
         +"<p>"+value.foodname+"</p>"+'  </summary>'+
         "<br>"+"<br>"+"<br>"+"<center>"+"<br>"+'<img src="/'+value.imgurl
         +'" width="35%" height="200px"/>'+"<H1>"+value.foodname+"</H1>"
