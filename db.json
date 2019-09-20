@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "fullname": "Daro Gadibia",
+      "username": "daro ",
+      "email": "darogadibia@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "fullname": "Daro Gadibi",
+      "username": "dd",
+      "email": "sqhoopmeme@gmail.com",
+      "password": "23456",
+      "id": 2
+    },
+    {
+      "fullname": "Moses Ahediah",
+      "username": "mose",
+      "email": "mosesahe@gmail.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "food": [
+    {
+      "foodname": "sweet carrot cake",
+      "prices": "N5000",
+      "imgurl": "/carrot-cake.jpg",
+      "id": 1
+    },
+    {
+      "foodname": "sweet chocolate cake",
+      "prices": "N8000",
+      "imgurl": "/chocolate cake.jpg",
+      "id": 2
+    },
+    {
+      "foodname": "Amazing carrot cake",
+      "prices": "N9000",
+      "imgurl": "/carrot-cake.jpg",
+      "id": 3
+    },
+    {
+      "foodname": "choco cake",
+      "prices": "N2500",
+      "imgurl": "/chocolate cake.jpg",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "fullname": "kingley oyaya",
+      "foodorder": "chocolate cake ",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 9
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 10
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 11
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 12
+    },
+    {
+      "fullname": "kingley oyaya",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 13
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 14
+    },
+    {
+      "fullname": "kingley oyaya",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 15
+    },
+    {
+      "fullname": "Gadibia Oghenetevwodaro",
+      "foodorder": "choco cake",
+      "phonenumber": "08012456544",
+      "location": "oshodi lagos",
+      "id": 16
+    },
+    {
+      "fullname": "Gadibia Oghenetevwodaro",
+      "foodorder": "choco cake",
+      "phonenumber": "08012456544",
+      "location": "oshodi lagos",
+      "id": 17
+    },
+    {
+      "fullname": "Gadibia Oghenetevwodaro",
+      "foodorder": "choco cake",
+      "phonenumber": "08012456544",
+      "location": "oshodi lagos",
+      "quantity": "13",
+      "id": 18
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 19
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 20
+    },
+    {
+      "fullname": "Daro Gadibia",
+      "foodorder": "cake",
+      "phonenumber": "080112234455",
+      "location": "somolu, lagos",
+      "quantity": "23",
+      "id": 21
+    }
+  ],
+  "admin": [
+    {
+      "adminID": "owner",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "adminID": "the owner",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "adminID": "the owner",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "contact": [
+    {
+      "fullname": "Daro Gadibia",
+      "email": "darogadibia@gmail.com",
+      "message": "how are you",
+      "id": 1
+    }
+  ]
+}

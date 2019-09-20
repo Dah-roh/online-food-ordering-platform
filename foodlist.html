@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <title>PasTrees</title>
+</head>
+
+<body>
+  <nav class="homeNav">
+    <ul>
+        <a class="link" href="foodupload.html"><li>Add to Food catalog</li></a>
+        <a class="link" href="foodlist.html"><li>View Food Catalog</li></a>
+        <a class="link" href="orderlist.html"><li>View Orders</li></a>
+    </ul>
+  </nav>
+  <main class="main-content">
+      <main class="main-content"><div class="container">
+        
+    <br><br><br><h1>Food List</h1><br><br><br>
+    <form class="update">
+        <p class="updateMessage"></p>
+        <input type="text" name="food" id="food" placeholder="Food Name" />
+        <input type="text" name="prices" id="prices" placeholder="Prices" />
+        <input type="text" name="imgurl" id="imgurl" placeholder="Image Url" />
+        <br>
+        <button class="updateSubmitBtn">Update</button>  <button class="deleteBtn">DELETE</button>
+        
+    </form>
+  
+    <div id="image">
+    </div>
+  
+  </main>
+<br><br><br><br><br><br>
+  <div class="footer">
+    <footer>Copyright &copy; PasTrees</footer></div>
+  <script src="./jquery.js"></script>
+  <script src="./foodlist.js"></script>
+  <script src="./checkLogin.js"></script>
+ </body>
+
+</html>
